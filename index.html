@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Singgih & Putri Wedding</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="opening" id="opening">
+    <div class="overlay"></div>
+    <div class="opening-content">
+      <p>The Wedding Of</p>
+      <h1>Singgih & Putri</h1>
+      <h3 id="guestName">Tamu Undangan</h3>
+      <button onclick="openInvitation()">Buka Undangan</button>
+    </div>
+  </div>
+
+  <audio id="music" loop>
+    <source src="assets/musik/music.mp3" type="audio/mp3">
+  </audio>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Singgih & Putri</h1>
+      <p>25 Juli 2026</p>
+    </div>
+  </section>
+
+  <section class="quote">
+    <p>
+      "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan pasangan-pasangan untukmu agar kamu cenderung dan merasa tenteram kepadanya."
+    </p>
+  </section>
+
+  <section class="couple">
+    <div class="card">
+      <img src="assets/foto/pria.jpg" alt="Pria">
+      <h2>Singgih</h2>
+      <p>Putra dari Bapak & Ibu</p>
+    </div>
+
+    <div class="and">&</div>
+
+    <div class="card">
+      <img src="assets/foto/wanita.jpg" alt="Wanita">
+      <h2>Putri</h2>
+      <p>Putri dari Bapak & Ibu</p>
+    </div>
+  </section>
+
+  <section class="countdown-section">
+    <h2>Menuju Hari Bahagia</h2>
+    <div id="countdown"></div>
+  </section>
+
+  <section class="event">
+    <div class="event-card">
+      <h2>Akad Nikah</h2>
+      <p>Sabtu, 25 Juli 2026</p>
+      <p>08.00 WIB</p>
+    </div>
+
+    <div class="event-card">
+      <h2>Resepsi</h2>
+      <p>Sabtu, 25 Juli 2026</p>
+      <p>10.00 WIB - Selesai</p>
+    </div>
+  </section>
+
+  <section class="location">
+    <h2>Lokasi Acara</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18"
+      width="100%"
+      height="300"
+      style="border:0; border-radius:20px;"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <section class="gallery">
+    <h2>Galeri</h2>
+    <div class="gallery-grid">
+      <img src="assets/foto/1.jpg">
+      <img src="assets/foto/2.jpg">
+      <img src="assets/foto/3.jpg">
+      <img src="assets/foto/4.jpg">
+    </div>
+  </section>
+
+  <section class="footer">
+    <h2>Terima Kasih</h2>
+    <p>Merupakan suatu kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir.</p>
+    <h3>Singgih & Putri</h3>
+  </section>
+
+<script src="script.js"></script>
+</body>
+</html>
